@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    min-height: 100vh;
+    display:grid;
+    position:relative;
+    align-items: flex-start;
+    background-color:white;
+    
+}
+.content{
+    
+}
+.glass1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(199,5,5,0.956);
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    color: whitesmoke;
+    font-weight: 900;
+    margin: 10px;
+}
+input{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(252, 124, 124);
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgb(252, 124, 124);
+    font-size: larger;
+
+}
+.glass2{
+    width: 100%;
+    height: 7vh;
+    background-color:white;
+    display:flexbox;
+    border-bottom: 1px solid black;
+}
+.buttons{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+button{
+    width: 100px;
+    height: 5vh;
+}
+a{
+    color: white;
+    border:none ;
+}
+.glass3{
+    width: 100%;
+    height: 30vh;
+    display:flex;
+    background-color:white;
+    border-bottom: 1px solid black;
+    
+
+}
+img{
+    width: 20%;
+    margin: 10px;
+    border-radius: 4px;
+}
+.glass4{
+    width: 70%;
+    border:0.2px solid black;
+    margin: 10px;
+    display: grid;
+    border-color: rgb(65, 61, 61);
+ 
+
+    
+}
+
+.room{
+    display: flex;
+    background-color: rgba(195, 224, 220, 0.163);
+    width: 80%;
+    border:0.2px solid rgb(74, 2, 2);
+    margin: 10px;
+    border-radius:10px;
+    border-color: rgb(65, 61, 61);
+    
+}
+
+.glass5{
+    width: 80%;
+    background-color: white;
+    display: flex;
+
+
+}
+.addHostel{
+    width: 40%;
+    height: 15vh;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border: 0.5px solid red;
+}
+.allHostelsButtons{
+    margin: 10px;
+    border-bottom: 2px solid grey;
+    border-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.allHostels{
+    margin: 10px;
+}
+
+.moonsection{
+    width:100%;
+margin: 20px;
+    display: grid;
+    
+}
+#moon{
+    width:60%;
+    height:80%;
+    border-radius: 50%;
+
+}
